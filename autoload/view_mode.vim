@@ -8,7 +8,7 @@ function! view_mode#do() abort
   endif
 
   if g:view_mode_status == "bottom"
-    call g:view_mode#_function#top()
+    call g:view_mode#_function#bottom()
   endif
 
   return "disable"
